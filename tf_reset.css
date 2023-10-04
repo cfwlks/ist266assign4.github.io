@@ -2,15 +2,17 @@
 
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
-   Tutorial 4
+   Tutorial 5
    Tutorial Case
    
-   Reset Style Sheet for Tree and Book
-
+   Trusted Friends Reset Style Sheet
    
-   Filename: pc_reset.css
+   Filename: tf_reset.css
 
 */
+
+
+/* Basic styles to be used with all devices and under all conditions */
 
 article, aside, figcaption, figure,
 footer, header, main, nav, section { 
@@ -20,7 +22,7 @@ footer, header, main, nav, section {
 address, article, aside, blockquote, body, cite, 
 div, dl, dt, dd, em, figcaption, figure, footer, 
 h1, h2, h3, h4, h5, h6, header, html, img, 
-li, main, nav, ol, p, section, span, ul {
+li, main, nav, nav a, ol, p, section, span, ul {
    margin: 0;
    padding: 0;
    border: 0;
@@ -32,6 +34,17 @@ li, main, nav, ol, p, section, span, ul {
    box-sizing: border-box;  
 }
 
+
+/* Set the default page element styles */
+
+body {
+   line-height: 1.2em;
+}
+
+ul, ol {
+   list-style: none;
+}
+
 nav ul {
    list-style: none;
    list-style-image: none;
@@ -41,6 +54,3 @@ nav a {
    text-decoration: none;
 }
 
-body {
-   line-height: 1;
-}
